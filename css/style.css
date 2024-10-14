@@ -61,12 +61,27 @@ color: var(--color-dark-text);
   font-weight: bold ;
 }
 /* fine modifica testo*/
+/*colori di sfondo*/
+.bg-color-white{
+background-color: white;
+}
+
 
 /*immagini*/
 .img{
   width: 100%;
   max-width: 100%;
 }
+/*bottoni*/
+.loghi{
+  justify-content: space-between;
+}
+
+
+
+
+
+
 @media screen and (min-width: 576px) {
 
 }
