@@ -46,6 +46,10 @@ font-family: "nerko one", cursive;
 .p-all{
 padding: 20px;
 }
+/*lista*/
+li{
+  list-style-type: none;
+}
 /*testo grande*/
 .uppercase{
 text-transform: uppercase;
@@ -53,10 +57,16 @@ text-transform: uppercase;
 .text-color{
 color: var(--color-dark-text);
 }
+.text-bold{
+  font-weight: bold ;
+}
 /* fine modifica testo*/
 
 /*immagini*/
 .img{
   width: 100%;
   max-width: 100%;
+}
+@media screen and (min-width: 576px) {
+
 }
