@@ -13,7 +13,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.debug{
+    border: 1px red;
+}
+.container{
+max-width: 1200;
+margin: 0 auto;
+}
+
 h1{
 text-transform: uppercase;
 color: var(--color-contrast);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+font-family: "nerko one", cursive;
     }
+  main{
+    background-color: var(--color-bg-color);
+  }
+  footer{
+    background-color:var(--color-primary) ;
+  }
