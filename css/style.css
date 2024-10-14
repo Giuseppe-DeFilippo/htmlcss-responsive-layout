@@ -142,16 +142,18 @@ display: none;
   float: none;
 }
 .pippo{
-
 }
-
+.span{
+  
+}
 /*inizio query 1*/
 @media screen and (max-width: 576px) {
 .d-flex2 {
   align-items: center;
-  justify-content: center;
-  
-  
+  justify-content: center; 
+}
+.span{
+  display: none;
 }
 }
   
@@ -159,6 +161,9 @@ display: none;
 @media screen and (min-width: 768px) {
 .comparsa{
   display: block;
+}
+.span{
+  display: none;
 }
 .button-font{
   border: none;
@@ -185,4 +190,10 @@ border-radius: 25px;
   .text-color{
     font-size: 35px;
   }
+  .pippo{
+    flex-direction: column;
+  }
+.span{
+  display:inline;
+}
 }
