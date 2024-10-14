@@ -13,13 +13,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*
 .debug{
     border: solid 1px red;
-}
+}*/
 .container{
 max-width: 1200;
 margin: 0 auto;
 }
+/*PADDING*/
+.padding-15px{
+  padding-bottom: 15px;
+}
+.padding-bottom-10px{
+  padding-bottom: 10px;
+}
+.padding-top-15px{
+  padding-top: 15px;
+}
+
 
 h1{
 text-transform: uppercase;
@@ -32,6 +44,7 @@ font-family: "nerko one", cursive;
   }
   footer{
     background-color:var(--color-primary) ;
+    color: var(--color-bg-color);
   }
   .d-flex{
     display: flex;
@@ -46,8 +59,14 @@ font-family: "nerko one", cursive;
 .p-all{
 padding: 20px;
 }
+.p-all2{
+padding:50px ;
+}
 .column{
 flex-wrap:wrap;
+}
+.space-around{
+justify-content: space-around;
 }
 /*lista*/
 li{
@@ -62,6 +81,16 @@ color: var(--color-dark-text);
 }
 .text-bold{
   font-weight: bold ;
+}
+.text-grey{
+color: grey;
+}
+.text-white{
+color: var(--color-white);
+font-weight: bold;
+}
+.center{
+text-align: center;
 }
 /* fine modifica testo*/
 /*colori di sfondo*/
@@ -84,6 +113,12 @@ background-color: white;
 /*bottoni*/
 .loghi{
   justify-content: space-between;
+}
+.button-font{
+  border: none;
+width: 40px;
+height: 30px;
+border-radius: 45%;
 }
 /*bordo presentation*/
 .border{
