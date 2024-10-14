@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 .debug{
-    border: 1px red;
+    border: solid 1px red;
 }
 .container{
 max-width: 1200;
@@ -33,3 +33,30 @@ font-family: "nerko one", cursive;
   footer{
     background-color:var(--color-primary) ;
   }
+  .d-flex{
+    display: flex;
+
+  }
+  .j-center {
+    justify-content: center;
+}
+.a-center {
+    align-items: center;
+}
+.p-all{
+padding: 20px;
+}
+/*testo grande*/
+.uppercase{
+text-transform: uppercase;
+}
+.text-color{
+color: var(--color-dark-text);
+}
+/* fine modifica testo*/
+
+/*immagini*/
+.img{
+  width: 100%;
+  max-width: 100%;
+}
