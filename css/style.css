@@ -63,6 +63,9 @@ padding: 20px;
 .p-all2{
 padding:50px ;
 }
+.padding-left-15px{
+padding-left: 15px;
+}
 .column{
 flex-wrap:wrap;
 }
@@ -138,13 +141,16 @@ display: none;
 .float{
   float: none;
 }
+.pippo{
 
+}
 
-
+/*inizio query 1*/
 @media screen and (max-width: 576px) {
 .d-flex2 {
   align-items: center;
   justify-content: center;
+  
   
 }
 }
@@ -164,4 +170,19 @@ border-radius: 25px;
   float: left;
   margin: 15px;
 }
+.pippo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.text-color{
+  font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+  .text-color{
+    font-size: 35px;
+  }
 }
